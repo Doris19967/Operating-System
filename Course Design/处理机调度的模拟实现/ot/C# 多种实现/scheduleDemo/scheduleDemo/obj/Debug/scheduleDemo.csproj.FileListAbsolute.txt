@@ -1,0 +1,9 @@
+E:\vs2008project\scheduleDemo\scheduleDemo\bin\Debug\scheduleDemo.exe
+E:\vs2008project\scheduleDemo\scheduleDemo\bin\Debug\scheduleDemo.pdb
+E:\vs2008project\scheduleDemo\scheduleDemo\obj\Debug\ResolveAssemblyReference.cache
+E:\vs2008project\scheduleDemo\scheduleDemo\obj\Debug\scheduleDemo.Form1.resources
+E:\vs2008project\scheduleDemo\scheduleDemo\obj\Debug\scheduleDemo.Properties.Resources.resources
+E:\vs2008project\scheduleDemo\scheduleDemo\obj\Debug\scheduleDemo.csproj.GenerateResource.Cache
+E:\vs2008project\scheduleDemo\scheduleDemo\obj\Debug\scheduleDemo.exe
+E:\vs2008project\scheduleDemo\scheduleDemo\obj\Debug\scheduleDemo.pdb
+E:\vs2008project\scheduleDemo\scheduleDemo\obj\Debug\scheduleDemo.Form2.resources

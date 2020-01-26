@@ -1,0 +1,15 @@
+D:\操作系统作业\JinCheng\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\操作系统作业\JinCheng\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\操作系统作业\JinCheng\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\操作系统作业\JinCheng\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\操作系统作业\JinCheng\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\操作系统作业\操作系统作业\JinCheng\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\操作系统作业\操作系统作业\JinCheng\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\操作系统作业\操作系统作业\JinCheng\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\操作系统作业\操作系统作业\JinCheng\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\操作系统作业\操作系统作业\JinCheng\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\Asp.NetPractice\Sandy\操作系统作业\JinCheng\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Asp.NetPractice\Sandy\操作系统作业\JinCheng\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\Asp.NetPractice\Sandy\操作系统作业\JinCheng\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\Asp.NetPractice\Sandy\操作系统作业\JinCheng\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Asp.NetPractice\Sandy\操作系统作业\JinCheng\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
