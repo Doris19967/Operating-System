@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SJFController">
+   <center>
+      <TableView fx:id="tableView" prefHeight="320.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="pidColumn" prefWidth="75.0" text="pid" />
+            <TableColumn fx:id="arriveColumn" prefWidth="82.0" text="到达时间" />
+            <TableColumn fx:id="statusColumn" prefWidth="68.0" text="状态" />
+            <TableColumn fx:id="needColumn" prefWidth="75.0" text="需要时间" />
+          <TableColumn fx:id="startColumn" prefWidth="75.0" text="开始时间" />
+            <TableColumn fx:id="finishColumn" prefWidth="75.0" text="结束时间" />
+            <TableColumn fx:id="turnColumn" prefWidth="84.0" text="周转时间" />
+            <TableColumn fx:id="rturnColumn" prefWidth="115.0" text="加权周转时间" />
+        </columns>
+      </TableView>
+   </center>
+   <top>
+      <GridPane BorderPane.alignment="CENTER">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="beginButton" mnemonicParsing="false" onAction="#beginPress" prefHeight="34.0" prefWidth="122.0" text="开始调度" GridPane.columnIndex="3">
+               <GridPane.margin>
+                  <Insets left="5.0" />
+               </GridPane.margin></Button>
+            <Button fx:id="initRButton" mnemonicParsing="false" onAction="#initRPress" prefHeight="34.0" prefWidth="122.0" text="随机初始化" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets left="5.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="initButton" mnemonicParsing="false" onAction="#initPress" prefHeight="34.0" prefWidth="122.0" text="文件初始化">
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="initIButton" layoutX="135.0" layoutY="13.0" mnemonicParsing="false" onAction="#initIPress" prefHeight="34.0" prefWidth="122.0" text="输入初始化" GridPane.columnIndex="2">
+               <GridPane.margin>
+                  <Insets left="5.0" />
+               </GridPane.margin>
+            </Button>
+            <Button fx:id="processButton" layoutX="405.0" layoutY="13.0" mnemonicParsing="false" onAction="#proPress" prefHeight="34.0" prefWidth="122.0" text="调度过程" GridPane.columnIndex="4">
+               <GridPane.margin>
+                  <Insets left="5.0" />
+               </GridPane.margin>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="10.0" top="5.0" />
+         </padding>
+      </GridPane>
+   </top>
+   <bottom>
+      <GridPane BorderPane.alignment="CENTER">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="进程数:" />
+            <Label fx:id="num" contentDisplay="CENTER" prefHeight="22.0" prefWidth="57.0" text="0" GridPane.halignment="RIGHT" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" stroke="BLACK" strokeType="INSIDE" width="42.0" GridPane.columnIndex="1" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fff2a" height="25.0" stroke="BLACK" strokeType="INSIDE" width="42.0" GridPane.columnIndex="2" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f20f0f" height="25.0" stroke="BLACK" strokeType="INSIDE" width="42.0" GridPane.columnIndex="3" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffaf21" height="25.0" stroke="BLACK" strokeType="INSIDE" width="42.0" GridPane.columnIndex="4" />
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="22.0" prefWidth="40.0" text="运行" GridPane.columnIndex="1" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="14.0" prefHeight="22.0" prefWidth="40.0" text="就绪" GridPane.columnIndex="4" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="14.0" prefHeight="22.0" prefWidth="40.0" text="等待" GridPane.columnIndex="3" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="14.0" prefHeight="22.0" prefWidth="40.0" text="完成" GridPane.columnIndex="2" />
+         </children>
+      </GridPane>
+   </bottom>
+</BorderPane>

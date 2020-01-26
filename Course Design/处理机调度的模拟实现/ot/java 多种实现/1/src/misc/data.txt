@@ -1,0 +1,5 @@
+arriveTime needTime priority
+    0          6        150
+    7          7        170
+    8          8        80
+    9		   3        110	
