@@ -1,0 +1,13 @@
+E:\winter\重庆理工大学作业\操作系统\Wpf_1\Wpf_1\bin\Debug\Wpf_1.exe.config
+E:\winter\重庆理工大学作业\操作系统\Wpf_1\Wpf_1\bin\Debug\Wpf_1.exe
+E:\winter\重庆理工大学作业\操作系统\Wpf_1\Wpf_1\bin\Debug\Wpf_1.pdb
+E:\winter\重庆理工大学作业\操作系统\Wpf_1\Wpf_1\obj\Debug\Wpf_1.csprojResolveAssemblyReference.cache
+E:\winter\重庆理工大学作业\操作系统\Wpf_1\Wpf_1\obj\Debug\MainWindow.baml
+E:\winter\重庆理工大学作业\操作系统\Wpf_1\Wpf_1\obj\Debug\MainWindow.g.cs
+E:\winter\重庆理工大学作业\操作系统\Wpf_1\Wpf_1\obj\Debug\App.g.cs
+E:\winter\重庆理工大学作业\操作系统\Wpf_1\Wpf_1\obj\Debug\Wpf_1_MarkupCompile.cache
+E:\winter\重庆理工大学作业\操作系统\Wpf_1\Wpf_1\obj\Debug\Wpf_1.g.resources
+E:\winter\重庆理工大学作业\操作系统\Wpf_1\Wpf_1\obj\Debug\Wpf_1.Properties.Resources.resources
+E:\winter\重庆理工大学作业\操作系统\Wpf_1\Wpf_1\obj\Debug\Wpf_1.csproj.GenerateResource.Cache
+E:\winter\重庆理工大学作业\操作系统\Wpf_1\Wpf_1\obj\Debug\Wpf_1.exe
+E:\winter\重庆理工大学作业\操作系统\Wpf_1\Wpf_1\obj\Debug\Wpf_1.pdb
